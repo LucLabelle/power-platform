@@ -36,6 +36,7 @@ The CoE Starter Kit requires access to your tenant's Power Platform environments
 - [Microsoft Power Platform service admin](/power-platform/admin/use-service-admin-role-manage-tenant#power-platform-administrator), global tenant admin, or Dynamics 365 service admin.
 - Power Apps Per User license (non-trial) and Microsoft 365 license.
 - Power Automate Per User or Per Flow license (non-trial).
+- A valide Office 365 Subscribtion to use the Office connector. 
 - The identity must be email-enabled.
 - If you'd like to collect telemetry information, such as app launches and unique users per app, the identity must have access to the [Microsoft 365 audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-search-the-audit-log).
 
@@ -83,7 +84,6 @@ The CoE Starter Kit can be used in both production environments and Dataverse fo
 | Sharing the Developer Compliance Center with makers | Share with colleagues who have a Microsoft 365 license in Teams | Sharing requires users to have a Power Apps Per User or Per App license |
 | Sharing the App Catalog app | Share with colleagues who have a Microsoft 365 license in Teams | Sharing requires users to have a Power Apps Per User or Per App license |
 | Sharing the Training in a day app | Share with colleagues who have a Microsoft 365 license in Teams | Sharing requires users to have a Power Apps Per User or Per App license |
-| Power BI Dashboard | Yes | Yes, using the [Dataverse](/powerapps/maker/data-platform/data-platform-powerbi-connector#connect-to-dataverse-using-the-connector) connector only |
 | Power BI Dashboard | Yes | Yes, using the [Dataverse](/powerapps/maker/data-platform/data-platform-powerbi-connector#connect-to-dataverse-using-the-connector) connector only |
 | Data Permissions | Team members have full access, and [pre-built table permissions](/powerapps/teams/set-perms-and-share#assign-table-permissions) can be applied to colleagues with access | Granular permissions through [Dataverse security roles](/security-roles-privileges) that can be tailored to your requirements |
 | Sharing apps | Share with colleagues who have a Microsoft 365 license in Teams | Sharing requires users to have a Power Apps Per User or Per App license |
